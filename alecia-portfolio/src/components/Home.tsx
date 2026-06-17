@@ -24,7 +24,7 @@ import {
 
 const Home = () => {
   return (
-    <section id="home" className="min-h-screen flex flex-col items-center justify-center bg-white text-black text-center px-16 pt-20 pb-20">
+    <section id="home" className="min-h-screen flex flex-col items-center justify-center text-center px-16 pt-20 pb-20">
       <Image src="/1unnamed.jpg" alt="Alecia Ortiz" width={200} height={200} className="rounded-full mb-8 animate-fade-in-left" />
       <h1 className="text-5xl font-bold animate-fade-in-left">Hi, <span className="inline-block animate-[wave_1.5s_ease-in-out_infinite]">👋</span> I&apos;m Alecia!</h1>
       <p className="mt-4 text-xl animate-fade-in-left animation-delay-100">I&apos;m a passionate developer ready to build amazing things.</p>
@@ -41,7 +41,7 @@ const Home = () => {
             <span className="absolute -bottom-10 text-sm opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 ease-in-out">React</span>
           </div>
           <div className="relative flex flex-col items-center group">
-            <TbBrandNextjs color="#000000" className="transition-transform duration-500 ease-in-out group-hover:scale-125" />
+            <TbBrandNextjs className="transition-transform duration-500 ease-in-out group-hover:scale-125" />
             <span className="absolute -bottom-10 text-sm opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 ease-in-out">Next.js</span>
           </div>
           <div className="relative flex flex-col items-center group">
