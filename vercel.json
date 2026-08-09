@@ -1,3 +1,12 @@
 {
-  "root": "alecia-portfolio"
+  "version": 2,
+  "builds": [
+    {
+      "src": "alecia-portfolio/package.json",
+      "use": "@vercel/next",
+      "config": {
+        "workPath": "alecia-portfolio"
+      }
+    }
+  ]
 }
